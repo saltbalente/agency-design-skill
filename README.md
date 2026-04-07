@@ -44,7 +44,7 @@
 
   | Feature | Detail |
   |---|---|
-  | Color system | Domain-derived palettes (12 industry categories), never generic grays |
+  | Color system | Domain-derived palettes with real hex codes (12 industry categories) |
   | Typography | Variable font pairings, fluid `clamp()` scale, display + body separation |
   | Motion | Agency-standard easing curves, scroll reveals, micro-interactions |
   | Components | Buttons, cards, inputs with all 5 states (default, hover, active, focus, disabled) |
@@ -53,7 +53,7 @@
   | Dark mode | First-class dark mode with rich deep backgrounds, not just color inversion |
   | Accessibility | WCAG AA contrast, keyboard nav, aria-labels, 44px touch targets |
   | Anti-patterns | 15 explicitly forbidden shortcuts that make UIs look like templates |
-  | Quality gate | 12-point self-review checklist before declaring done |
+  | Quality gate | 15-point self-review checklist before declaring done |
 
   ---
 
@@ -68,6 +68,7 @@
   | File | Purpose |
   |---|---|
   | `AGENCY_DESIGN_SKILL.md` | Full skill specification (main document) |
+  | `CHEAT_SHEET.md` | Quick reference — hex codes, CSS snippets, animation variants |
   | `CLAUDE.md` | Claude Code auto-read file (references the skill) |
   | `.github/copilot-instructions.md` | GitHub Copilot / Codex custom instructions |
   | `opencode.md` | OpenCode agent instructions |
